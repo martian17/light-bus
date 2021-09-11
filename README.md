@@ -7,8 +7,8 @@ npm install light-bus
 
 ## Usage
 ```JavaScript
-const Bus = require("light-bus");
-let bus = new Bus();
+const Events = require("light-bus");
+let bus = new Events();
 
 bus.on("randomChimpEvent",function(val1,val2,val3,val4){
     console.log(val1,val2,val3,val4);
