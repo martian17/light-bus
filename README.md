@@ -1,13 +1,13 @@
-# tiny-bus
+# micro-bus
 
 ## Installation
 ```
-npm install tiny-bus
+npm install micro-bus
 ```
 
 ## Usage
 ```JavaScript
-const Bus = require("event-bus");
+const Bus = require("micro-bus");
 let bus = new Bus();
 
 bus.on("randomEvent",function(val1,val2){

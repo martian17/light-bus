@@ -1,5 +1,5 @@
 {
-  "name": "tiny-bus",
+  "name": "micro-bus",
   "version": "1.0.0",
   "description": "A minimalistic event bus",
   "main": "main.js",
@@ -10,13 +10,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/martian17/tiny-bus.git"
+    "url": "git+https://github.com/martian17/micro-bus.git"
   },
   "keywords": [
     "duration", "parser", "time", "timer", "english"
   ],
   "bugs": {
-    "url": "https://github.com/martian17/tiny-bus/issues"
+    "url": "https://github.com/martian17/micro-bus/issues"
   },
-  "homepage": "https://github.com/martian17/tiny-bus#readme"
+  "homepage": "https://github.com/martian17/micro-bus#readme"
 }
