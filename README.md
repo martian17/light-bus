@@ -10,11 +10,11 @@ npm install light-bus
 const Bus = require("light-bus");
 let bus = new Bus();
 
-bus.on("randomEvent",function(val1,val2){
-    console.log(val1,val2);
+bus.on("randomChimpEvent",function(val1,val2,val3,val4){
+    console.log(val1,val2,val3,val4);
 });
 
 setTimeout(function(){
-    bus.emit("randomEvent",810,1919);
+    bus.emit("randomChimpEvent",810,1919,420,69);
 },11451.4);
 ```
