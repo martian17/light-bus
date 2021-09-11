@@ -1,13 +1,13 @@
-# micro-bus
+# light-bus
 
 ## Installation
 ```
-npm install micro-bus
+npm install light-bus
 ```
 
 ## Usage
 ```JavaScript
-const Bus = require("micro-bus");
+const Bus = require("light-bus");
 let bus = new Bus();
 
 bus.on("randomEvent",function(val1,val2){
